@@ -23,6 +23,11 @@ An ARIMA model is trained on the Closing price of the stock data and the best pa
 ### SARIMAX
 The SARIMAX model is trained on the Close price with the Volume data as the exogeneous variable.
 
+### PROPHET
+Prophet is a time-series forecasting tool by Meta which automatically handles trends, seasons, missing values and is robust to outliers. It is a powerful tool for time series forecasting especially when there is complex patterns involved.  
+
+PROPHET is trained on the Close price and forecasting is done along the test data.
+
 ## Dependencies
 - `pandas`
 - `numpy`
